@@ -50,6 +50,50 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:9001/user/1311",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:9001/user/1311",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "9001",
+					"path": [
+						"user",
+						"1311"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:9002/contact/user/1311",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9002/contact/user/1311",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9002",
+					"path": [
+						"contact",
+						"user",
+						"1311"
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }
